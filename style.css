@@ -3,6 +3,30 @@ body
     background-color: black;
 }
 /*------------------------------------------------NAVBAR----------------------------------------*/
+/* For tablets */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* For mobile */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  iframe {
+    height: 300px;
+  }
+  .btn {
+    width: 100%;
+  }
+}
+
 .nav
 {
     background-color: rgba(0, 0, 0, 0.856);
@@ -533,4 +557,5 @@ footer p
     font-size: 20px;
     line-height: 25px;
 }
+
 /*--------------------------------------------CATERING---------------------------------------*/
