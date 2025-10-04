@@ -25,7 +25,29 @@
     <a href="donate.html">DONATE</a>
     <a href="contact.html">CONTACT</a>
   </div>
-</nav>
+</nav
+    /* =====================
+   MOBILE RESPONSIVE ABOUT PAGE
+   ===================== */
+@media (max-width: 768px) {
+  .main_about .main_content_about h2 {
+    font-size: 22px;       /* smaller font for mobile */
+    padding: 10%;          /* reduce padding */
+    line-height: 1.4;      /* better readability */
+    word-break: break-word; /* prevent overflow */
+  }
+
+  .main_about {
+    padding: 20px;        /* keep spacing neat */
+    text-align: center;
+  }
+
+  .main_about .main_content_about {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 
     <!-- ----------------------------------------NAVBAR----------------------------------------------------->
     <nav class="nav nav_top">
@@ -123,4 +145,5 @@
 </body>
 
 </html>
+
 
